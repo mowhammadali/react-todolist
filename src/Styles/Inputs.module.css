@@ -1,0 +1,44 @@
+.inputContainer {
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.textBox {
+    padding: 0 1rem;
+    font-size: 18px;
+    width: 450px;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 1rem 0 0 1rem;
+    color: var(--dark-text);
+    background-color: var(--text-box);
+}
+
+.textBox::placeholder {
+    color: var(--dark-text);
+}
+
+.btn {
+    padding: 1rem;
+    height: 100%;
+    border: none;
+    border-radius: 0 1rem 1rem 0;
+    cursor: pointer;
+    color: var(--light-text);
+    background-color: var(--btn);
+}
+
+@media screen and (max-width: 576px) {
+    .textBox {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .textBox {
+        width: 250px;
+        font-size: 16px;
+    }
+}

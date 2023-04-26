@@ -1,0 +1,28 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+:root {
+  --bg: #352451;
+  --light-text: #fff;
+  --dark-text: #2c2c2c;
+  --text-box: #624d85;
+  --btn: #3d67a7;
+  --todo-color: #2a8c7d;
+  --delete-btn: #b93f3f;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
